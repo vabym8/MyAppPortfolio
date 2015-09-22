@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_layout_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/s_app_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_Spotify_Streamer"
+                style="@style/blue_button"
+                android:text="@string/s_SpotifyStreamer" />
+
+            <Button
+                android:id="@+id/btn_Scores_App"
+                style="@style/blue_button"
+                android:text="@string/s_Scores_App" />
+
+            <Button
+                android:id="@+id/btn_Library_App"
+                style="@style/blue_button"
+                android:text="@string/s_Library_App" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_Build_It_Bigger"
+                style="@style/blue_button"
+                android:text="@string/s_Build_It_Bigger" />
+
+            <Button
+                android:id="@+id/btn_XYZ_Reader"
+                style="@style/blue_button"
+                android:text="@string/s_XYZ_Reader" />
+
+            <Button
+                android:id="@+id/btn_Capstone"
+                style="@style/red_button"
+                android:text="@string/s_Capstone" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
+

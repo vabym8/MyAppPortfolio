@@ -3,4 +3,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="s_SpotifyStreamer">Spotify Streamer</string>
+    <string name="s_Scores_App">Scores App</string>
+    <string name="s_Library_App">Library App</string>
+    <string name="s_Build_It_Bigger">Build It Bigger</string>
+    <string name="s_XYZ_Reader">XYZ Reader</string>
+    <string name="s_Capstone">Capstone My Own APP</string>
+    <string name="s_app_title">My Nanodegree Apps!</string>
 </resources>
