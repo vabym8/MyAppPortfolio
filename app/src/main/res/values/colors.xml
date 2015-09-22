@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_layout_bg" type="color">#EDE7F6</item>
+    <item name="blue_button_bg" type="color">#64B5F6</item>
+    <item name="blue_button_text_color" type="color">#E3F2FD</item>
+    <item name="red_button_bg" type="color">#E91E63</item>
+    <item name="red_button_text_color" type="color">#FFFFFF</item>
+</resources>
